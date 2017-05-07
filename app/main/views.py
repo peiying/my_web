@@ -8,7 +8,7 @@ from . import main
 from flask import render_template,session,url_for,redirect,flash
 from datetime import datetime
 from flask.ext.login import login_required
-from app.main.forms import NameForm
+from .forms import NameForm
 
 @main.route('/',methods=['GET', 'POST'])
 def index():
